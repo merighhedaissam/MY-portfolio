@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="portfolioaissam.css">
+</head>
+<body>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <div class="star"></div>
+    <header>
+        <h1>WELCOME TO MY PORTFOLIO</h1>
+        <div class="centered-text">
+            <div class="animated-text">
+                <span class="word">Hi,</span>
+                <span class="word">I'm Aissam,</span>
+                <span class="word">Information Systems Engineer</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>
+            Passionate about technology and problem-solving, I specialize in developing efficient, scalable, and robust software solutions. With experience in a wide range of programming languages and frameworks, I aim to deliver innovative solutions that enhance business productivity and user experience.
+        </p>
+    </section>
+
+    <!-- Buttons to toggle sections -->
+    <div class="toggle-buttons">
+        <button onclick="toggleSection('my-skills')">My Skills</button>
+        <button onclick="toggleSection('my-projects')">My Projects</button>
+    </div>
+
+    <!-- Skills Section (Initially Hidden) -->
+    <section id="my-skills" class="my-skills" style="display: none;">
+        <h2>My Skills</h2>
+        <div class="skill">
+            <samp>Python</samp>
+            <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill">
+            <samp>JavaScript</samp>
+            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill">
+            <samp>Java</samp>
+            <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+        </div>
+        <div class="skill">
+            <samp>React</samp>
+            <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill">
+            <samp>Node.js</samp>
+            <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill">
+            <samp>SQL</samp>
+            <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Initially Hidden) -->
+    <section id="my-projects" class="my-projects" style="display: none;">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <div class="project-info">
+                <h3>Project 01:Optimizing Storage Space in a Seaport Using Genetic Algorithm</h3>
+                <p>The aim of this project is to develop a genetic algorithm for optimizing container placement in a seaport. By taking into account key criteria such as container size and weight, as well as storage time, the algorithm improves storage space efficiency. Containers with shorter storage times are strategically placed closer to the exit, facilitating access and reducing processing times. This project demonstrates the application of advanced optimization techniques in a real logistics context, contributing to more efficient resource management in the maritime sector.</p>
+            </div>
+            <img src="project1.png" alt="Project Image 1" >
+        </div>
+        <div class="project-card">
+            <div class="project-info1">
+                <h3>Project 02:</h3>
+                <p>It will be completed soon</p>
+            </div>
+            <img src="project2.png" alt="Project Image 2">
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <footer>
+        <p>© 2024 My Portfolio | Contact me: <a href="mailto:merighedaissam@gmail.com">merighedaissam@gmail.com</a></p>
+    </footer>
+
+    <script src="portfolioaissam.js"></script>
+</body>
+</html>
